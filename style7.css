@@ -1,0 +1,71 @@
+/* Wrapper principal para referência */
+    .page-wrapper {
+      position: relative;
+      width: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Introdução da página */
+    .intro {
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    /* Painel de explicação */
+    .explanation {
+      position: relative;
+      width: 60%;
+      margin-right: 35%;
+      border-right: 1px solid #1f295c;
+      padding-right: 2%;
+      background-color: #e0e7ff;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* Menu de design reposicionado */
+    .design-menu {
+      position: absolute;
+      top: 560px;
+      left: 62%;
+      width: 33%;
+      padding: 0 2%;
+      background-color: #d1d5db;
+      box-sizing: border-box;
+    }
+
+    /* Apenas para visualização */
+    .design-menu, .explanation {
+      min-height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <!-- Introdução -->
+    <div class="intro">
+      <h1>Bem-vindo à Página</h1>
+      <p>Esta é a introdução da página. Ela permanece no topo e serve como cabeçalho para o conteúdo abaixo.</p>
+    </div>
+
+    <!-- Painel de Explicação -->
+    <div class="explanation">
+      <h2>Painel de Explicação</h2>
+      <p>Este painel ocupa 60% da largura disponível e possui uma margem de 35% à direita, além de uma borda azul escura e espaçamento interno no lado direito.</p>
+    </div>
+
+    <!-- Menu de Designs -->
+    <div class="design-menu">
+      <h2>Menu de Designs</h2>
+      <ul>
+        <li>Design 1</li>
+        <li>Design 2</li>
+        <li>Design 3</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
+  
